@@ -1,0 +1,122 @@
+[
+  {
+    "name": "My First Portfolio..",
+    "desc": "A basic potfolio website made by using HTML and CSS",
+    "image": "1",
+    "category": "Webpage",
+    "links": {
+      "view": "https://sakshamjain98.github.io/My_Portfolio/",
+      "code": "https://github.com/Sakshamjain98/My_Portfolio"
+    }
+  },
+  {
+    "name": "Amazon Home Page Clone",
+    "desc": "A fully responsive Amazon Clone home page using HTML & CSS",
+    "image": "2",
+    "category": "Webpage",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Spotify Home Page Clone",
+    "desc": "A fully responsive Spotify Clone home page using HTML & CSS",
+    "image": "3",
+    "category": "Webpage",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Basic Calculator",
+    "desc": "A BAsic Calculator for basic calculation ... Using HTML CSS & JS",
+    "image": "4",
+    "category": "Webpage",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Portfolio Website",
+    "desc": "A Full Fledge Portfolio Website using HTML, CSS, JS , JQUERY, Tilt js, Typed JS, etc",
+    "image": "5",
+    "category": "Website",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Weather App",
+    "desc": "A Weater App using weather Api and React...",
+    "image": "6",
+    "category": "Website",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Spotify Page",
+    "desc": "A fully responsive Spotify Clone home page using HTML & CSS",
+    "image": "7",
+    "category": "Website",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "E-Cell Website-- Home Page",
+    "desc": "A home page of E-Cell club using HTML, CSS , JS , tilt JS, typed JS and Particles JS",
+    "image": "8",
+    "category": "Website",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "A Landing Page",
+    "desc": "A fully responsive home page using HTML, JS & CSS",
+    "image": "9",
+    "category": "Website",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "URL Shortner",
+    "desc": "This is a url shortning website using api...",
+    "image": "10",
+    "category": "Website",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Currency Changer",
+    "desc": "This is a Currency changing website using api...",
+    "image": "11",
+    "category": "Website",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Sign Up Page",
+    "desc": "A sign up page using tailwind css...",
+    "image": "12",
+    "category": "Website",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  }
+]

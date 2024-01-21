@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Celebration</title>
+    <style>
+    body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+section {
+    text-align: center;
+    padding: 20px;
+}
+
+.fun-section, .interactive-section, .gallery-section {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+#confettiContainer {
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+}
+
+.confetti {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #e44d26;
+    border-radius: 50%;
+    animation: confetti-fall linear infinite;
+}
+
+@keyframes confetti-fall {
+    to {
+        transform: translateY(200px);
+    }
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Birthday Celebration!</h1>
+    </header>
+
+    <section>
+        <div class="fun-section">
+            <h2>Happy Birthday [Employee's Name]!</h2>
+            <p>This website is dedicated to celebrating the fantastic [Employee's Name].</p>
+            <p>Enjoy the fun activities and warm wishes from the team!</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="interactive-section">
+            <button id="confettiButton">Throw Confetti</button>
+            <div id="confettiContainer"></div>
+        </div>
+    </section>
+
+    <section>
+        <div class="gallery-section">
+            <!-- Add your photo gallery or slideshow here -->
+            <p>Photo Gallery Goes Here</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 E-Cell Club</p>
+    </footer>
+
+    <script>
+        document.getElementById('confettiButton').addEventListener('click', () => {
+    createConfetti();
+});
+
+function createConfetti() {
+    const confettiContainer = document.getElementById('confettiContainer');
+
+    const confetti = document.createElement('div');
+    confetti.classList.add('confetti');
+    confetti.style.left = `${Math.random() * 100}%`;
+
+    confettiContainer.appendChild(confetti);
+
+    setTimeout(() => {
+        confetti.remove();
+    }, 5000);
+}
+
+    </script>
+</body>
+</html>
