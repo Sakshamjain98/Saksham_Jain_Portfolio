@@ -178,7 +178,7 @@ header .navbar.nav-toggle {
     gap: 1.5rem;
     height: 100vh;
     align-items: center;
-    margin-top: 2rem;
+    margin-top: 5rem;
     background-color: aliceblue;
 }
 
@@ -189,6 +189,8 @@ header .navbar.nav-toggle {
   height: 100%;
   width: 100%;
 }
+
+
 
 
 .home::before {
